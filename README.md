@@ -16,7 +16,7 @@ docker-compose up -d
 # Enjoy
 - The Elastic Stack is now setup with TLS and security features enabled for testing.
 - https://localhost:5601/
-- user:elastic, password:"PASSWORD_FROM_PW_FILE"
+- user:password -> elastic:"PASSWORD_FROM_PW_FILE"
 # Troubleshooting
 ## Check connection to es01 with elastic user
 elasticpw="PASSWORD_FROM_PW_FILE"
