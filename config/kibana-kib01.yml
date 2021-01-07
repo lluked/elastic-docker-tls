@@ -1,0 +1,14 @@
+# Server
+server.name: kib01
+server.host: "0"
+server.ssl.enabled: true
+server.ssl.key: /usr/share/kibana/config/certificates/kib01/kib01.key
+server.ssl.certificate: /usr/share/kibana/config/certificates/kib01/kib01.crt
+# ElasticSearch
+elasticsearch.hosts: https://es01:9200
+elasticsearch.username: kibana_system
+elasticsearch.password: kibanapassword
+elasticsearch.ssl.certificateAuthorities: /usr/share/kibana/config/certificates/ca/ca.crt
+# Xpack
+xpack.security.enabled: true
+xpack.encryptedSavedObjects.encryptionKey: something_at_least_32_characters
