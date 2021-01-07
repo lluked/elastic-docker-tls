@@ -21,6 +21,6 @@ docker-compose up -d
 ## Check connection to es01 with elastic user
 elasticpw="PASSWORD_FROM_PW_FILE"
 docker run --rm -v es_certs:/certs --network=es_elastic docker.elastic.co/elasticsearch/elasticsearch:7.10.1 curl --cacert /certs/ca/ca.crt -u elastic:$elasticpw https://es01:9200
-## Check connection to es01 with kinana_system user
+## Check connection to es01 with kibana_system user
 kibanapw=PASSWORD_FROM_PW_FILE
 docker run --rm -v es_certs:/certs --network=es_elastic docker.elastic.co/elasticsearch/elasticsearch:7.10.1 curl --cacert /certs/ca/ca.crt -u kibana_system:$kibanapw https://es01:9200
