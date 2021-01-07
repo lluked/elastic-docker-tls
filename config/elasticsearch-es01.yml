@@ -21,3 +21,5 @@ xpack.security.transport.ssl.verification_mode: certificate
 xpack.security.transport.ssl.key: /usr/share/elasticsearch/config/certificates/es01/es01.key
 xpack.security.transport.ssl.certificate_authorities: /usr/share/elasticsearch/config/certificates/ca/ca.crt
 xpack.security.transport.ssl.certificate: /usr/share/elasticsearch/config/certificates/es01/es01.crt
+# Legacy
+xpack.monitoring.collection.enabled: true
