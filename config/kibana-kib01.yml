@@ -7,7 +7,7 @@ server.ssl.certificate: /usr/share/kibana/config/certificates/kib01/kib01.crt
 # ElasticSearch
 elasticsearch.hosts: https://es01:9200
 elasticsearch.username: kibana_system
-elasticsearch.password: kibanapassword
+# elasticsearch.password: kibanapassword
 elasticsearch.ssl.certificateAuthorities: /usr/share/kibana/config/certificates/ca/ca.crt
 # Xpack
 xpack.security.enabled: true
